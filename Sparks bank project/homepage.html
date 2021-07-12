@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>homePage</title>
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+	<style type="text/css">		
+      *{
+         margin: 0px;
+         padding:  0px;
+      }
+      body
+      {
+	      margin:  0px;
+         padding:  0px;
+         background-image:  url("bac.jpg");
+         background-size: 100%;
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+      }
+      .logo
+      {
+            display: inline;
+            margin-left: 60px;
+            line-height: 80px;
+      }
+      .logo label
+      {
+         position: relative;
+         font-size: 27px;
+         font-family: arial;
+         color: white;
+      }
+      .header
+      {
+         position: absolute;
+         background: rgba(0,0,0,.8);
+         margin: 0px;
+         padding: 0px;
+         width: 100%;
+         height:  100px;
+      }
+      ul
+      {
+         display: inline;
+         position: relative;
+         float: right;
+         margin-top: 35px; 
+      }
+      ul li
+      {
+         list-style: none;
+         display: inline-block;
+         margin-right: 60px;  
+      }
+      li a
+      {
+         text-decoration: none;
+         color: white;
+         font-size: 20px;
+         padding: 20px 22px;
+         border-width: 3px;
+         border-radius: 40px;
+         font-family: sans-serif;
+      }
+      li a:hover
+      {
+         background-color: white;
+         transition: .6s;
+         color: black;
+      }
+      .maintheme
+      {
+         color:  gainsboro;
+         font-size:  27px;
+         position: absolute;
+         bottom:  27%;
+         font-family: arial;
+         margin-left: 50px;
+      }
+      .maintheme1
+      {
+         color:  floralwhite;
+         font-size:  27px;
+         position: absolute;
+         bottom:  20%;
+         font-family: arial;
+         margin-left: 50px;
+      }
+     .placebtn
+     {
+         position:  absolute;
+         bottom: 10%;
+         margin-left: 32px;
+         padding: 17px 20px;
+         color: red;
+      }
+      button
+      {
+         background: red;
+         border-radius: 30px;
+      }
+      .abtn
+      {
+         color: white;
+         font-family: sans-serif;
+         font-size: 20px;
+         text-decoration: none;
+         padding: 13px 15px;  
+      }
+      .abtn a:hover
+      {
+         background: black;
+         transition: 2s;
+      }
+	</style>
+</head>
+<body>
+	<div class="header">
+	   <div class="logo">
+		  <label><span style="font-size: 50px;">S</span>PARKS BANK</label>
+	   </div>
+	   <ul>
+	   	<li><a href="#" class="text">Home</a></li>
+	   	<li><a href="transactiondetails.php" class="text">Transaction details</a></li>
+	   </ul>
+   </div>
+   <p class="maintheme">Welcome to <span style="font-size: 40px;">S</span>PARKS BANK<br><br> Transfer money from your place.</p>
+   <p class="maintheme1">Want to view customers Click below !!!!</p>
+   <div class="placebtn">
+      <button><a href="viewcustomers.php " class="abtn">CLICK</a></button>
+   </div>
+   <div class="about" id="abo">
+   	
+   </div>
+</body>
+</html>
